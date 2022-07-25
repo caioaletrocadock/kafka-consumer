@@ -1,0 +1,23 @@
+{
+  "name": "kafka-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "start:dev": "nodemon index.js --env=dev",
+    "start:hml": "nodemon index.js --env=hml"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.1142.0",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "kafkajs": "^2.0.1",
+    "minimist": "^1.2.6"
+  }
+}
